@@ -6,7 +6,7 @@ data = {
     'square_feet': [1100, 1350, 1600, 1800, 2000, 2250, 2500, 2750, 3000, 3200],
     'bedrooms':     [2, 3, 3, 3, 4, 4, 4, 5, 5, 6],
     'bathrooms':    [1, 2, 2, 2, 3, 3, 3, 4, 4, 5],
-    'price':        [30, 42, 50, 55, 65, 72, 80, 95, 105, 120]  # in lakhs ₹
+    'price':        [30, 42, 50, 55, 65, 72, 80, 95, 105, 120]
 }
 df = pd.DataFrame(data)
 X = df[['square_feet', 'bedrooms', 'bathrooms']]
